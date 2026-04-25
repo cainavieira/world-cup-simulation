@@ -1,0 +1,101 @@
+.titulo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: goldenrod;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid seagreen;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+}
+
+.chavesFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.tituloRodada {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: lightgreen;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  margin-bottom: .8rem;
+}
+
+.partidas {
+  display: grid;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .partidas {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.tituloFinal {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: goldenrod;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+.podio {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.campeao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  background: linear-gradient(135deg, #5f4516 0%, #3f2d0f 100%);
+  border: 2px solid mediumseagreen;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+.campeaoLabel {
+  font-size: 0.8rem;
+  color: khaki;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.campeaoNome {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: goldenrod;
+}
+
+.vice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  background: darkslategray;
+  border: 1px solid seagreen;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.viceLabel {
+  font-size: 0.8rem;
+  color: darkseagreen;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.viceNome {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: gainsboro;
+}

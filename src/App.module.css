@@ -1,0 +1,86 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #0a4b3f 0%, #0f3f35 100%);
+  border: 1px solid seagreen;
+  border-radius: 16px;
+}
+
+.titulo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: goldenrod;
+  letter-spacing: 0.05rem;
+}
+
+.subtitulo {
+  font-size: 0.9rem;
+  color: darkseagreen;
+  letter-spacing: 0.06rem;
+}
+
+.acoes {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem;
+}
+
+.btn {
+  padding: 0.8rem 2.2rem;
+  background: seagreen;
+  color: whitesmoke;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    transform 0.1s;
+}
+
+.btn:hover {
+  background: mediumseagreen;
+  transform: translateY(-1px);
+}
+
+.btnGreen {
+  background: mediumseagreen;
+}
+
+.btnGreen:hover {
+  background: seagreen;
+}
+
+.sucesso {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: lightgreen;
+}
+
+.erro {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: tomato;
+}
+
+.centralizado {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: gainsboro;
+  font-size: 1rem;
+}
