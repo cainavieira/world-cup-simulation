@@ -4,6 +4,12 @@ Simulador da Copa do Mundo desenvolvido em React + Vite.
 
 O app sorteia os grupos, simula a fase de grupos, gera o mata-mata (oitavas até final), define campeão e vice, e envia o resultado final para a API.
 
+## Acesso online
+
+Projeto publicado no GitHub Pages:
+
+https://cainavieira.github.io/world-cup-simulation/
+
 ## Objetivo
 
 Este projeto foi construído para demonstrar:
