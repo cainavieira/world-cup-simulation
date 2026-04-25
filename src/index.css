@@ -11,7 +11,6 @@ body {
   background: linear-gradient(135deg, #062a22 0%, #0c4a3e 55%, #144238 100%);
   color: whitesmoke;
   min-height: 100vh;
-  -webkit-font-smoothing: antialiased;
 }
 
 button {
