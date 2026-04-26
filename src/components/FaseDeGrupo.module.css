@@ -55,16 +55,16 @@
 }
 
 .tabela thead tr {
-  background: lightblue;
+  background: goldenrod;
 }
 
 .tabela th {
   padding: 0.35rem 0.3rem;
   text-align: center;
-  color: darkseagreen;
-  font-weight: 600;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 800;
   letter-spacing: 0.04rem;
-  border-bottom: 1px solid seagreen;
+  border-bottom: 1px solid darkslategray;
 }
 
 .thSelecao  {
